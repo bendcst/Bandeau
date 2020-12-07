@@ -23,7 +23,7 @@ public class Clignotant extends Effet {
     public void afficher() {
         bandeau.setMessage(message);
         for (int n = 0; n < this.repets; n++) {
-            for (int i = 0; i < 60; i++) {
+            for (int i = 0; i < 4; i++) {
                 if (i % 2 == 0) {
                     this.bandeau.setForeground(Color.white);
                     this.bandeau.sleep(100);
